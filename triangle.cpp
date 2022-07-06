@@ -3,24 +3,24 @@ using namespace std;
 
 int main()
 {
-    int a,b,c,s,perimeter,area;
+    int a,b,c;
 
-    cout<<endl<<"Calculate Perimeter & Area of a Triangle.";
-    cout<<endl<<"Side 1 Length = ";
+    cout<<endl<<"Is it Triangle";
+    cout<<endl<<"Angle 1 = ";
     cin>>a;
 
-    cout<<endl<<"Side 2 Length = ";
+    cout<<endl<<"Angle 2 = ";
     cin>>b;
 
-    cout<<endl<<"Side 3 Length = ";
+    cout<<endl<<"Angle 3 = ";
     cin>>c;
 
-    perimeter=a+b+c;
-    s=(a+b+c)/2;
-    area=(s*(s-a)*(s-b)*(s-c))^2;
-
-    cout<<endl<<"Perimeter = "<<perimeter;
-    cout<<endl<<"Area = "<<area;
+    
+    if(a+b+c==180)
+    {
+        cout<<endl<<"This is a Triangle";
+    }
+    
 
     return 0;
 }
