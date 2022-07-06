@@ -20,6 +20,10 @@ int main()
     {
         cout<<endl<<"This is a Triangle";
     }
+    else
+    {
+        cout<<endl<<"This is not a Triangle";   
+    }
     
 
     return 0;
